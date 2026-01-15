@@ -1,0 +1,16 @@
+ZSH_THEME="powerlevel10k/powerlevel10k"
+
+clear
+
+fastfetch
+
+
+alias ..='cd ..'
+alias ...='cd ...'
+alias ll='ls -a'
+alias home='cd ~'
+alias mtr='mtr -t -b'
+alias lls='ssh-list'
+alias mp3='~/Documents/yt-dlp -x --audio-format mp3 --cookies-from-browser firefox -P ~/Downloads'
+alias mp4='~/Documents/yt-dlp --cookies-from-browser firefox -P ~/Downloads'
+
